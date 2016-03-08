@@ -1,0 +1,10 @@
+F:\program\practice test\DelDemo\WinFormDemo\bin\Debug\WinFormDemo.exe.config
+F:\program\practice test\DelDemo\WinFormDemo\bin\Debug\WinFormDemo.exe
+F:\program\practice test\DelDemo\WinFormDemo\bin\Debug\WinFormDemo.pdb
+F:\program\practice test\DelDemo\WinFormDemo\obj\Debug\WinFormDemo.csprojResolveAssemblyReference.cache
+F:\program\practice test\DelDemo\WinFormDemo\obj\Debug\WinFormDemo.ChildFrom.resources
+F:\program\practice test\DelDemo\WinFormDemo\obj\Debug\WinFormDemo.ParentFrom.resources
+F:\program\practice test\DelDemo\WinFormDemo\obj\Debug\WinFormDemo.Properties.Resources.resources
+F:\program\practice test\DelDemo\WinFormDemo\obj\Debug\WinFormDemo.csproj.GenerateResource.Cache
+F:\program\practice test\DelDemo\WinFormDemo\obj\Debug\WinFormDemo.exe
+F:\program\practice test\DelDemo\WinFormDemo\obj\Debug\WinFormDemo.pdb
