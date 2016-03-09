@@ -58,6 +58,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextBoxMsgChangeEventArg.cs" />
     <EmbeddedResource Include="ChildFrom.resx">
       <DependentUpon>ChildFrom.cs</DependentUpon>
     </EmbeddedResource>

@@ -43,18 +43,51 @@ namespace DelDemo
 
             #region 案例
 
-            List<string> strList = new List<string>() { "3","6","9","11"};
+            //List<string> strList = new List<string>() { "3","6","9","11"};
 
-            //取出小于"6"的然后打印
-            //var temp = strList.Where(delegate(string a) { return a.CompareTo("6") < 0; });
-            var temp = strList.MyWhere(delegate(string a) { return a.CompareTo("6") < 0; });
-            foreach(var item  in  temp)
+            ////取出小于"6"的然后打印
+            ////var temp = strList.Where(delegate(string a) { return a.CompareTo("6") < 0; });
+            //var temp = strList.MyWhere(delegate(string a) { return a.CompareTo("6") < 0; });
+            //foreach(var item  in  temp)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+             int i, j, k;
+            List<List<int>> myList = new List<List<int>>();
+            for(i= 1 ; i<= 6; i++)
             {
-                Console.WriteLine(item);
+                
+                for(j = 1 ; j<=6;j++)
+                {
+                    
+                    for (k = 1 ; k <= 6 ; k ++)
+                    {
+                        List<int> array = new List<int> ();
+
+                        array.Add(i);
+                        array.Add(j);
+                        array.Add(k);
+                        if (!myList.Contains(array,new PopupComparer()))
+                        {
+                            myList.Add(array);
+                        }
+                        
+                        
+                    }
+                }
             }
+
+            myList.ForEach(delegate(List<int> item)
+            {
+                Console.WriteLine(item[0] + "," + item[1] + "," + item[2]);
+            });
 
 
             #endregion 
+
+           
+
             Console.ReadKey();
         }
 
@@ -72,6 +105,32 @@ namespace DelDemo
         {
             return a * 2;
         }
+
+        public class PopupComparer : IEqualityComparer<List<int>>
+        {
+            public static PopupComparer Default = new PopupComparer();
+            #region IEqualityComparer<PopupModel> 成员
+            public bool Equals(List<int> x, List<int> y)
+            {
+                x.Sort();
+                y.Sort();
+                string s1 = "";
+                string s2 = "";
+                x.ForEach(delegate(int a) { s1 += a.ToString();});
+                y.ForEach(delegate(int a) { s2 += a.ToString(); });
+                if( s1==s2)
+                {
+                    
+                    return true;
+                }
+                return false;
+            }
+            public int GetHashCode(List<int> obj)
+            {
+                return obj.GetHashCode();
+            }
+            #endregion
+        }  
     
     }
 }

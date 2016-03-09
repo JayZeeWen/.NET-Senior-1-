@@ -16,5 +16,17 @@ namespace WinFormDemo
         {
             InitializeComponent();
         }
+
+        public void SetText(string msg)
+        {
+            this.txtMsg.Text = msg;
+        }
+
+        public void AfterParentFormTextChange (object sender ,EventArgs e)
+        {
+            //拿到父窗体传递的值
+            TextBoxMsgChangeEventArg arg = e as TextBoxMsgChangeEventArg;
+            this.txtMsg.Text = arg.Text;
+        }
     }
 }
