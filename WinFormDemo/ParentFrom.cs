@@ -42,10 +42,10 @@ namespace WinFormDemo
         private void btnSendMsg_Click(object sender, EventArgs e)
         {
             #region 委托方式
-            if (AfterMsgSend != null)
-            {
-                AfterMsgSend(this.txtMsg.Text);
-            }
+            //if (AfterMsgSend != null)
+            //{
+            //    AfterMsgSend(this.txtMsg.Text);
+            //}
             #endregion 
 
             #region 事件方式
