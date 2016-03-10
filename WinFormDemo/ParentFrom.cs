@@ -17,6 +17,7 @@ namespace WinFormDemo
         //1 : 菜鸟级别，将子窗体的属性公开给父窗体访问
         //2 ： 改成委托方式
         //3 : 改成事件方式
+        //不使用委托实现观察者模式/发布订阅模式
         //定义发布信息的委托
         public Action<string> AfterMsgSend { get; set; }
         //定义消息发布的事件
