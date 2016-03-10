@@ -1,0 +1,9 @@
+F:\program\practice test\DelDemo\FileIODemo\bin\Debug\FileIODemo.exe.config
+F:\program\practice test\DelDemo\FileIODemo\bin\Debug\FileIODemo.exe
+F:\program\practice test\DelDemo\FileIODemo\bin\Debug\FileIODemo.pdb
+F:\program\practice test\DelDemo\FileIODemo\obj\Debug\FileIODemo.csprojResolveAssemblyReference.cache
+F:\program\practice test\DelDemo\FileIODemo\obj\Debug\FileIODemo.MainForm.resources
+F:\program\practice test\DelDemo\FileIODemo\obj\Debug\FileIODemo.Properties.Resources.resources
+F:\program\practice test\DelDemo\FileIODemo\obj\Debug\FileIODemo.csproj.GenerateResource.Cache
+F:\program\practice test\DelDemo\FileIODemo\obj\Debug\FileIODemo.exe
+F:\program\practice test\DelDemo\FileIODemo\obj\Debug\FileIODemo.pdb

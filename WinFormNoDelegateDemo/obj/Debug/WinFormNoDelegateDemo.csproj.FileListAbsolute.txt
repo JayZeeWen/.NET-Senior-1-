@@ -1,0 +1,11 @@
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\bin\Debug\WinFormNoDelegateDemo.exe.config
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\bin\Debug\WinFormNoDelegateDemo.exe
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\bin\Debug\WinFormNoDelegateDemo.pdb
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.csprojResolveAssemblyReference.cache
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.ChildFrom.resources
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.ParentForm.resources
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.Properties.Resources.resources
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.csproj.GenerateResource.Cache
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.exe
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.pdb
+F:\program\practice test\DelDemo\WinFormNoDelegateDemo\obj\Debug\WinFormNoDelegateDemo.MainForm.resources
