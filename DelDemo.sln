@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIODemo", "FileIODemo\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDemo", "ThreadDemo\ThreadDemo.csproj", "{1A757272-F682-435B-BE7E-222DFEC1418F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormThread", "WinFormThread\WinFormThread.csproj", "{566ADD5F-13E6-4305-BCF6-8B094D47940B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1A757272-F682-435B-BE7E-222DFEC1418F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A757272-F682-435B-BE7E-222DFEC1418F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A757272-F682-435B-BE7E-222DFEC1418F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566ADD5F-13E6-4305-BCF6-8B094D47940B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566ADD5F-13E6-4305-BCF6-8B094D47940B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566ADD5F-13E6-4305-BCF6-8B094D47940B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566ADD5F-13E6-4305-BCF6-8B094D47940B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

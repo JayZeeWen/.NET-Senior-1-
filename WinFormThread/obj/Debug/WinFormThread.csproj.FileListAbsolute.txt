@@ -1,0 +1,10 @@
+F:\program\practice test\DelDemo\WinFormThread\bin\Debug\WinFormThread.exe.config
+F:\program\practice test\DelDemo\WinFormThread\bin\Debug\WinFormThread.exe
+F:\program\practice test\DelDemo\WinFormThread\bin\Debug\WinFormThread.pdb
+F:\program\practice test\DelDemo\WinFormThread\obj\Debug\WinFormThread.csprojResolveAssemblyReference.cache
+F:\program\practice test\DelDemo\WinFormThread\obj\Debug\WinFormThread.Form1.resources
+F:\program\practice test\DelDemo\WinFormThread\obj\Debug\WinFormThread.Properties.Resources.resources
+F:\program\practice test\DelDemo\WinFormThread\obj\Debug\WinFormThread.csproj.GenerateResource.Cache
+F:\program\practice test\DelDemo\WinFormThread\obj\Debug\WinFormThread.exe
+F:\program\practice test\DelDemo\WinFormThread\obj\Debug\WinFormThread.pdb
+F:\program\practice test\DelDemo\WinFormThread\obj\Debug\WinFormThread.LuckDraw.resources
