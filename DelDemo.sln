@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormThread", "WinFormThr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo", "ThreadPoolDemo\ThreadPoolDemo.csproj", "{BE802C35-55E3-470D-9606-B8FC8A8AE9DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketDemo", "SocketDemo\SocketDemo.csproj", "{036E2D9A-1AE0-4D08-B843-3CDB1CDDEFBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{BE802C35-55E3-470D-9606-B8FC8A8AE9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE802C35-55E3-470D-9606-B8FC8A8AE9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE802C35-55E3-470D-9606-B8FC8A8AE9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036E2D9A-1AE0-4D08-B843-3CDB1CDDEFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036E2D9A-1AE0-4D08-B843-3CDB1CDDEFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036E2D9A-1AE0-4D08-B843-3CDB1CDDEFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036E2D9A-1AE0-4D08-B843-3CDB1CDDEFBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
