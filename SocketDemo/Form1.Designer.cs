@@ -29,11 +29,14 @@
         private void InitializeComponent()
         {
             this.btnStart = new System.Windows.Forms.Button();
-            this.txtIPAddress = new System.Windows.Forms.TextBox();
+            this.txtInfo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPort = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtLog = new System.Windows.Forms.RichTextBox();
+            this.btnSend = new System.Windows.Forms.Button();
+            this.txtIPAddress = new System.Windows.Forms.TextBox();
+            this.txtClientMsg = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnStart
@@ -46,13 +49,12 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // txtIPAddress
+            // txtInfo
             // 
-            this.txtIPAddress.Location = new System.Drawing.Point(70, 22);
-            this.txtIPAddress.Name = "txtIPAddress";
-            this.txtIPAddress.Size = new System.Drawing.Size(100, 21);
-            this.txtIPAddress.TabIndex = 1;
-            this.txtIPAddress.Text = "192.168.1.100";
+            this.txtInfo.Location = new System.Drawing.Point(25, 342);
+            this.txtInfo.Name = "txtInfo";
+            this.txtInfo.Size = new System.Drawing.Size(328, 21);
+            this.txtInfo.TabIndex = 1;
             // 
             // label1
             // 
@@ -78,26 +80,54 @@
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(100, 21);
             this.txtPort.TabIndex = 3;
-            this.txtPort.Text = "65000";
+            this.txtPort.Text = "6500";
             // 
-            // richTextBox1
+            // txtLog
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(21, 71);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(414, 238);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.txtLog.Location = new System.Drawing.Point(21, 71);
+            this.txtLog.Name = "txtLog";
+            this.txtLog.Size = new System.Drawing.Size(414, 238);
+            this.txtLog.TabIndex = 5;
+            this.txtLog.Text = "";
+            // 
+            // btnSend
+            // 
+            this.btnSend.Location = new System.Drawing.Point(359, 342);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(75, 23);
+            this.btnSend.TabIndex = 0;
+            this.btnSend.Text = "发送消息";
+            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            // 
+            // txtIPAddress
+            // 
+            this.txtIPAddress.Location = new System.Drawing.Point(52, 22);
+            this.txtIPAddress.Name = "txtIPAddress";
+            this.txtIPAddress.Size = new System.Drawing.Size(138, 21);
+            this.txtIPAddress.TabIndex = 6;
+            this.txtIPAddress.Text = "192.168.1.105";
+            // 
+            // txtClientMsg
+            // 
+            this.txtClientMsg.Location = new System.Drawing.Point(21, 384);
+            this.txtClientMsg.Name = "txtClientMsg";
+            this.txtClientMsg.Size = new System.Drawing.Size(328, 21);
+            this.txtClientMsg.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 344);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(474, 483);
+            this.Controls.Add(this.txtClientMsg);
+            this.Controls.Add(this.txtIPAddress);
+            this.Controls.Add(this.txtLog);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtPort);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtIPAddress);
+            this.Controls.Add(this.txtInfo);
+            this.Controls.Add(this.btnSend);
             this.Controls.Add(this.btnStart);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -109,11 +139,14 @@
         #endregion
 
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.TextBox txtIPAddress;
+        private System.Windows.Forms.TextBox txtInfo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPort;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtLog;
+        private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.TextBox txtIPAddress;
+        private System.Windows.Forms.TextBox txtClientMsg;
     }
 }
 
