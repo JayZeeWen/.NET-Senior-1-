@@ -1,0 +1,9 @@
+F:\program\practice test\DelDemo\SocketDemo\bin\Debug\SocketDemo.exe.config
+F:\program\practice test\DelDemo\SocketDemo\bin\Debug\SocketDemo.exe
+F:\program\practice test\DelDemo\SocketDemo\bin\Debug\SocketDemo.pdb
+F:\program\practice test\DelDemo\SocketDemo\obj\Debug\SocketDemo.csprojResolveAssemblyReference.cache
+F:\program\practice test\DelDemo\SocketDemo\obj\Debug\SocketDemo.Form1.resources
+F:\program\practice test\DelDemo\SocketDemo\obj\Debug\SocketDemo.Properties.Resources.resources
+F:\program\practice test\DelDemo\SocketDemo\obj\Debug\SocketDemo.csproj.GenerateResource.Cache
+F:\program\practice test\DelDemo\SocketDemo\obj\Debug\SocketDemo.exe
+F:\program\practice test\DelDemo\SocketDemo\obj\Debug\SocketDemo.pdb
