@@ -28,9 +28,7 @@ namespace SocketDemo
             //Socket服务器端的逻辑
             //1 创建socket对象   第一个参数：网络的寻址协议   第二个参数：数据传输方式  三：通信协议
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-
             this.txtLog.Text = "创建服务器端SOCKET对象\r\n" + this.txtLog.Text;
-
 
             //2 绑定ip端口
             IPAddress ip = IPAddress.Parse(txtIPAddress.Text);
@@ -45,6 +43,19 @@ namespace SocketDemo
             ThreadPool.QueueUserWorkItem(new WaitCallback(StartAcceptCient), serverSocket);
 
 
+        }        
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            foreach (Socket client in ClientProxSocket)
+            {
+                if (client.Connected)
+                {
+                    string str = this.txtInfo.Text;
+                    byte[] data = Encoding.Default.GetBytes(str);
+                    client.Send(data, 0, data.Length, SocketFlags.None);
+                }
+            }
         }
 
         public void StartAcceptCient(object state)
@@ -58,20 +69,6 @@ namespace SocketDemo
 
                 //服务器端接受客户端消息
                 ThreadPool.QueueUserWorkItem(new WaitCallback(RecieveData), proxSocket);
-
-            }
-        }
-
-        private void btnSend_Click(object sender, EventArgs e)
-        {
-            foreach (Socket client in ClientProxSocket)
-            {
-                if (client.Connected)
-                {
-                    string str = this.txtInfo.Text;
-                    byte[] data = Encoding.Default.GetBytes(str);
-                    client.Send(data, 0, data.Length, SocketFlags.None);
-                }
             }
         }
 
@@ -97,7 +94,6 @@ namespace SocketDemo
                 this.txtLog.Text = string.Format("接受到客户端{0}  的消息 {1} \r\n", proxSocket.RemoteEndPoint.ToString(), fromClientMsg) + this.txtLog.Text;
 
             }
-
         }
     }
 }

@@ -4,3 +4,6 @@ F:\program\practice test\DelDemo\DelDemo\bin\Debug\DelDemo.exe
 F:\program\practice test\DelDemo\DelDemo\bin\Debug\DelDemo.pdb
 F:\program\practice test\DelDemo\DelDemo\obj\Debug\DelDemo.exe
 F:\program\practice test\DelDemo\DelDemo\obj\Debug\DelDemo.pdb
+E:\Git\.NET-Senior-1-\DelDemo\bin\Debug\DelDemo.exe.config
+E:\Git\.NET-Senior-1-\DelDemo\obj\Debug\DelDemo.exe
+E:\Git\.NET-Senior-1-\DelDemo\obj\Debug\DelDemo.pdb
